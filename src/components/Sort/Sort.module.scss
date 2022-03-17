@@ -1,0 +1,35 @@
+.sort {
+  box-sizing: border-box;
+  width: 152px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #BDBDBD;
+  padding: 35px 0 0 20px;
+  height: 100vw;
+
+  * {
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  button {
+    box-sizing: border-box;
+    padding: 5px 15px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    border: none;
+    background: #4B51EF;
+    border-radius: 5px;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  }
+}
